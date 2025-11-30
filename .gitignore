@@ -1,0 +1,17 @@
+# Archivos de sistema / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Node / build (por si en el futuro metemos tooling)
+node_modules/
+dist/
+build/
+.cache/
+
+# Backups o temporales
+*.bak
+*.tmp
+*.swp
