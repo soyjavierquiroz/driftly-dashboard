@@ -67,7 +67,7 @@
           $('#dpm-image').attr('src', d.imagen || '').attr('alt', d.nombre);
           $('#dpm-title').text(d.nombre || '');
           $('#dpm-provider').text(d.proveedor_nombre || '');
-          $('#dpm-mayorista').text(d.precio_mayorista);
+          $('#dpm-Vendedor').text(d.precio_vendedor);
           $('#dpm-sugerido').text(d.precio_sugerido);
           $('#dpm-descripcion-base').html(d.descripcion_base || '');
 

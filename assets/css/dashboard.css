@@ -764,3 +764,25 @@ body.d-modal-open {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/********************************************
+ * RANGO GAMIPRESS EN HEADER
+ ********************************************/
+
+.d-header__rank img {
+    max-width: 50px !important;
+    max-height: 50px !important;
+    display: block;
+}
+
+/* En móvil ocultamos nombre y rol, pero rank + logout deben seguir visibles */
+@media (max-width: 640px) {
+    .d-header__rank img {
+        max-width: 40px !important;
+        max-height: 40px !important;
+    }
+
+    .d-header__user {
+        gap: 10px;
+    }
+}
